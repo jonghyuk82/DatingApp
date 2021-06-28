@@ -11,6 +11,10 @@
 
 - Enter follow command on the terminal:
   - dotnet ef migrations add InitialCreate -o Data/Migrations
+- Adding another columns or tables in the DB:
+  - adding table or colum in the entities and run following command:
+    - stop runnging API and go to API folder type dotnet ef migrations add _migrations' name_
+    - and then run command as 'dotnet ef database update' to update actual DB
 
 # Adding Bootstrap for Angular
 
