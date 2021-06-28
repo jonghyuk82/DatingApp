@@ -58,7 +58,7 @@ namespace API
             app.UseRouting();
 
             // this has to be between UseRouting and UserEndpoints. But UseAuthorization also needs to use Cors, so it should be here.
-            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200"));
+            app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
 
             app.UseAuthorization();
 
