@@ -1,5 +1,12 @@
 # DatingApp
 
+# Running API and Angular in vscode
+
+- for API:
+  - go to API folder and type donet run
+- for Angular:
+  - go to client folder and type ng serve
+
 # Create EF migration folder and Initializations
 
 - Enter follow command on the terminal:
