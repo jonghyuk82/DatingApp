@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ejmEgoBX85pC9tttsZaPb8Q7d/+oVNkt3qKnr3yGEQnGmcZKJNzVlmnVwo2lY9pu8d7G5F5nof68LGylR/cUmg==",
+  "dgSpecHash": "p8IX7Q3EZi1ZMDwDKSZkDqY6DX7eTAkCUGtqEzVQvqrNG0pMCAv4LPYXXCMz9NKVBfi182Hu8ShJO2X7Zw6I3Q==",
   "success": true,
   "projectFilePath": "/Users/jonghyuklee/Udemy-Study/Core5_Angular/demo/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,9 @@
     "/Users/jonghyuklee/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/Users/jonghyuklee/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
     "/Users/jonghyuklee/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/jonghyuklee/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.11.1/microsoft.identitymodel.jsonwebtokens.6.11.1.nupkg.sha512",
+    "/Users/jonghyuklee/.nuget/packages/microsoft.identitymodel.logging/6.11.1/microsoft.identitymodel.logging.6.11.1.nupkg.sha512",
+    "/Users/jonghyuklee/.nuget/packages/microsoft.identitymodel.tokens/6.11.1/microsoft.identitymodel.tokens.6.11.1.nupkg.sha512",
     "/Users/jonghyuklee/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/jonghyuklee/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4/sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/jonghyuklee/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
@@ -38,7 +41,9 @@
     "/Users/jonghyuklee/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/Users/jonghyuklee/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/jonghyuklee/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "/Users/jonghyuklee/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+    "/Users/jonghyuklee/.nuget/packages/system.identitymodel.tokens.jwt/6.11.1/system.identitymodel.tokens.jwt.6.11.1.nupkg.sha512",
+    "/Users/jonghyuklee/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/jonghyuklee/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
