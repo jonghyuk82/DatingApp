@@ -27,3 +27,11 @@
     - 'npm uninstall @schematics/angular'
     - 'npm install @schematics/angular@9.1.0'
     - 'ng add ngx-bootstrap'
+
+# Create Angular component using CLI
+
+- go to client/src/app
+- type 'ng g -h' for help or 'ng g c nav'
+  - it creates component with test files.
+- With out test files, type follwing command:
+  - 'ng g c _component name_ --skip-tests'
