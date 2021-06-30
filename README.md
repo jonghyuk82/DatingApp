@@ -34,4 +34,9 @@
 - type 'ng g -h' for help or 'ng g c nav'
   - it creates component with test files.
 - With out test files, type follwing command:
+
   - 'ng g c _component name_ --skip-tests'
+
+- Adding account service on \_services folder
+  - go to client/src/app/\_services
+  - type 'ng g s account --skip-test'
