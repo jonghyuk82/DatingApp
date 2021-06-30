@@ -40,3 +40,12 @@
 - Adding account service on \_services folder
   - go to client/src/app/\_services
   - type 'ng g s account --skip-test'
+
+# Turn off the strict mode
+
+- open the tsconfig.json file
+- change it as following:
+  - "strict": false,
+  - "strictInjectionParameters": false,
+  - "strictInputAccessModifiers": false,
+  - "strictTemplates": false

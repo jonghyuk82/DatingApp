@@ -1,4 +1,5 @@
 {
     "editor.codeActionsOnSave": null,
-    "files.autoSave": "onFocusChange"
+    "files.autoSave": "onFocusChange",
+    "angular.enable-strict-mode-prompt": false
 }
