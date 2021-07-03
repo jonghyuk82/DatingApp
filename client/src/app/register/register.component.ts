@@ -1,3 +1,4 @@
+import { AccountService } from './../_services/account.service';
 import { CompileShallowModuleMetadata } from '@angular/compiler';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
@@ -10,12 +11,21 @@ export class RegisterComponent implements OnInit {
   // @Input() usersFromHomeComponent: any;
   @Output() cancelRegister = new EventEmitter();
   model: any = {};
-  constructor() {}
+
+  constructor(private accoutnService: AccountService) {}
 
   ngOnInit(): void {}
 
   register() {
-    console.log(this.model);
+    this.accoutnService.register(this.model).subscribe(
+      (response) => {
+        console.log(response);
+        this.cancel();
+      },
+      (error) => {
+        console.log(error);
+      }
+    );
   }
 
   cancel() {
