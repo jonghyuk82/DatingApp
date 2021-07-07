@@ -49,3 +49,13 @@
   - "strictInjectionParameters": false,
   - "strictInputAccessModifiers": false,
   - "strictTemplates": false
+
+# Install toast / route guard / theme
+
+- go to client folder and 'npm install ngx-toastr'
+- Applying route guard
+  - create folder named as \_guards and go to the folder.
+  - type 'ng g guard auth --skip-tests.
+  - select 'CanActivate'
+- go to client folder and type 'npm install bootswatch'
+  - refer the link: https://bootswatch.com/
