@@ -42,6 +42,19 @@ namespace API.Controllers
 
             return thingToReturn;
 
+            // try
+            // {
+            //     var thing = _context.Users.Find(-1);
+
+            //     var thingToReturn = thing.ToString();
+
+            //     return thingToReturn;
+            // }
+            // catch (Exception ex)
+            // {
+            //     return StatusCode(500, "Internal Server Error");
+            // }
+
 
         }
 
