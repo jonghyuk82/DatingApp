@@ -59,3 +59,7 @@
   - select 'CanActivate'
 - go to client folder and type 'npm install bootswatch'
   - refer the link: https://bootswatch.com/
+
+# Adding interceptor
+
+- go to folder and type 'ng g interceptor error --skip-tests'
