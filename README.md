@@ -63,3 +63,8 @@
 # Adding interceptor
 
 - go to folder and type 'ng g interceptor error --skip-tests'
+
+# Applying es2019
+
+- open up the tsconfig.json
+- add "es2019" on lib section
