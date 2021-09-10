@@ -1,5 +1,17 @@
 # DatingApp
 
+# Create .net core project(backend)
+
+- go to folder where you want to store the project and type below:
+  - dotnet new sln
+  - dotnet new webapi -o {project name}
+  - dotnet sln add {webapi project name}
+
+# Using HTTPS localhost
+
+- go to folder where your backend stored and type below:
+  - dotnet dev-certs https --trust
+
 # Running API and Angular in vscode
 
 - for API:
@@ -29,6 +41,14 @@
     - 'ng add ngx-bootstrap'
 
 # Create Angular component using CLI
+
+- create angular project(client)
+
+  - go to folder where you want to create angular project and type below:
+    - npm install -g @angular/cli
+    - ng new my-app
+    - cd my-app
+    - ng serve
 
 - go to client/src/app
 - type 'ng g -h' for help or 'ng g c nav'
